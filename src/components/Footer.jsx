@@ -16,13 +16,18 @@ function Footer() {
           <input className="form-email__email" type="text" placeholder="Your E-mail" id="email" />
           <button className="formemail__subscribe" type="button">SUBSCRIBE</button>
         </form>
+<<<<<<< HEAD
         <div className="copyleft__social">
           <span className="social__followUs"> Follow us:</span>
           <div className="social__iconsContainer">
             <i className="iconsContainer__fab fa-facebook" />
           </div>
+=======
+        <div className="">
+          <span> Follow us:</span>
+          <div />
+>>>>>>> 934f7334086f7fd6427a71dea42171bdc95c5b3f
         </div>
-
       </div>
       <Nav />
     </div>
