@@ -8,23 +8,23 @@
     background #1d1f24
     display grid
     padding-left 20px
-    grid-column: 1fr
-    grid-template-areas "Deck"
-                        "Social"
-                        "Nav"
+    grid-template-areas "Deck""Social""Nav"
     .Footer__Deck
         grid-area Deck
         display flex
         flex-flow column
     .Footer__Social
         grid-area Social
-    
-
+        display grid
+        grid-template-areas: "form""network"
+        .Social_form
+            grid-area form
+        .social_network
+            grid-area network
 
 @media screen and (min-width 767px)
     .Footer
-        grid-template-areas "Deck Nav"
-                            "Social social"
+        grid-template-areas "Deck Nav""Social Social"
 
 @media screen and (min-width 1024px)
     .Footer
