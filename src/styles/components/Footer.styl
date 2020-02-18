@@ -17,10 +17,14 @@
         grid-area Social
         display grid
         grid-template-areas: "form""network"
-        .Social_form
+        .Social__form
             grid-area form
-        .social_network
+        .Social__network
             grid-area network
+            display: flex
+            .network__iconsContainer
+                display: flex
+                justify-content: space-around
 
 @media screen and (min-width 767px)
     .Footer
